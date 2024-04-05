@@ -2,7 +2,9 @@ const heading=document.getElementById('heading');
 const box1=document.getElementById('box1');
 const btn=document.getElementById('mybtn');
 const btn2=document.getElementById('mybtn2');
-const input=document.querySelector('input');
+const btn5=document.getElementById('mybtn5');
+const input=document.getElementById('input');
+const input1=document.getElementById('myInput');
 
 // btn.addEventListener('click',function name/or function);
 // btn.addEventListener('click',() =>{
@@ -68,3 +70,11 @@ function addClasses() {
 // Add event listener to the button to trigger addClasses function
 btn.addEventListener('click', addClasses);
 
+
+
+const btnClick =() => {
+
+    alert(input1.value);
+};
+
+btn5.addEventListener("click", btnClick)
