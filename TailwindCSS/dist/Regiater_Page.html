@@ -12,11 +12,11 @@
 
 </head>
 
-<body>
-    <section class="bg-gray-50 dark:bg-gray-900">
-        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+<body class="bg-gray-50 dark:bg-gray-900 r">
+    <!-- <section class="bg-gray-50 dark:bg-gray-900 r"> -->
+        <div class="flex flex-col items-center justify-center p-4">
             <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-                <img class="w-8 h-8 mr-2" src="" alt="logo">
+                <img class="w-8 h-8 mr-2 rounded-full" src="" alt="logo">
                 IFFIONEX
             </a>
             <div
@@ -58,23 +58,36 @@
                             </div>
                             <div class="ml-3 text-sm">
                                 <label for="terms" class="font-light text-gray-500 dark:text-gray-300">I accept the <a
-                                        class="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                                        class="font-medium text-blue-600 hover:underline dark:text-blue-500"
                                         href="#">Terms and Conditions</a></label>
                             </div>
                         </div>
                         <button type="submit"
-                            class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Create
+                            class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Create
                             an account</button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                             Already have an account? <a href="#"
-                                class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login
+                                class="font-medium text-blue-600 hover:underline dark:text-blue-500">Login
                                 here</a>
                         </p>
                     </form>
+                    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white"> Strong Password requirements:</h2>
+                    <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                        <li>
+                            At least 10 characters (and up to 100 characters)
+                        </li>
+                        <li>
+                            At least one lowercase character
+                        </li>
+                        <li>
+                            Inclusion of at least one special character, e.g., ! @ # ?
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
-    </section>
+    <!-- </section> -->
 </body>
 
 </html>
